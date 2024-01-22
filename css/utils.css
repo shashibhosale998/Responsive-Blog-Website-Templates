@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Roboto:wght@500&display=swap");
+
+:root {
+  --main-bg-color: #b0a695;
+  --main-font1: Arial;
+  --main-font2: sans-serif;
+  --font9: "Kanit", sans-serif;
+}
+
+.font1 {
+  font-family: var(--main-font1);
+}
+
+.font2 {
+  font-family: var(--main-font2);
+}
+
+.max-width1 {
+  max-width: 80vw;
+}
+
+.max-width2 {
+  max-width: 80vw;
+}
+
+.max-width3 {
+  max-width: 80vw;
+}
+
+.max-width4 {
+  max-width: 60vw;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.form-input {
+  padding: 6px 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: #f4eae0;
+}
+
+.btn:hover {
+  color: white;
+  background: var(--main-bg-color);
+}
+
+.btn {
+  padding: 6px 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: #f4eae0;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.font3 {
+  margin: 20px auto;
+}
+
+.my-marg {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.space {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.font-kanit {
+  font-family: var(--font9);
+}
+.home-article-content .space{
+font-family: var(--font9);
+}
+.home-article-content span{
+  font-family: var(--font9);
+}
+.home-article-content h3{
+  font-family: var(--font9);
+}
+.footer{
+  font-family: var(--font9);
+}
+.year-box h3{
+  font-family: var(--font9);
+}
